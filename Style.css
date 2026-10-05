@@ -1,0 +1,22 @@
+
+*{
+    background-color: black;
+}
+
+/* HEADER */
+#header{
+    position: relative;
+}
+#header-image{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+}
+#header-steve{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 10;
+}
