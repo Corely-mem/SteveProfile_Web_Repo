@@ -1,0 +1,23 @@
+
+#main{
+    background-color: #061426;
+}
+#main-about-img{
+    height: 300px;
+    width: auto;
+}
+#about-container{
+    position: absolute;
+}
+.main-text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+#text-1{
+    font-size: 3rem;
+    color: white;
+}
+#text-2{
+    font-size: 5rem;
+    color: rgb(8, 220, 235);
+}
