@@ -93,3 +93,26 @@
     box-shadow: 0 0 20px #19C9F466;
     transform: translateY(-3px);
 }
+
+/* STATS SECTION */
+
+#main-stats-img{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    inset: 0;
+    object-fit: cover;
+    margin-top: 50%;
+}
+#text-4{
+    color: white;
+    z-index: 10;
+}
+#text-5{
+    color: white;
+    z-index: 10;
+}
+#text-6{
+    color: white;
+    z-index: 10;
+}
