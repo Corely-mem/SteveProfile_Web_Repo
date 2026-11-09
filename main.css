@@ -267,7 +267,7 @@
         8px 8px 0 #05090f,
         0 0 12px rgba(0, 217, 245, 0.4);
 }
-#blue-line{
+.blue-line{
     position: relative;
     height: 4px;
     width: 90vw;
@@ -317,4 +317,50 @@
     box-shadow: 0 0 20px #19C9F466;
     transform: translateY(-3px);
     border-color: #19C9F4;
+}
+/* ---- FEELING ---- */
+#feeling{
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+#main-feeling-img{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    inset: 0;
+    object-fit: cover;
+    z-index: 0;
+}
+#text-10, #text-11{
+    font-family: "Minecraft-font", sans-serif;
+    position: relative;
+    margin-left: 5vw;
+    letter-spacing: 2px;
+    -webkit-text-stroke: 3px black;
+    paint-order: stroke fill;
+    text-shadow: 
+    3px 3px 0 black,
+    5px 5px 0 black,
+    7px 7px 0 black,
+    9px 9px 0 black;
+}
+#text-10{
+    margin-top: 10vh;
+    color: white;
+    font-size: clamp(30px, 6vw, 60px);
+}
+#text-11{
+    color: rgb(16, 211, 236);
+    font-size: clamp(50px, 8vw, 120px);
+}
+#feeling-line{
+    border: 1px solid black;
+    margin-top: 3vh;
 }
