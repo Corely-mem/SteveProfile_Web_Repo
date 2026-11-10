@@ -395,12 +395,63 @@
     object-fit: cover;
     z-index: 0;
 }
-#text-12, #text-13{
-    position: relative;
-    font-size: clamp(50px, 8vw, 150px);
-    color: white;
-    font-family: "Minecraft-font", sans-serif;
-    margin-top: 3vh;
+#itzrealme-container{
     display: flex;
     flex-direction: row;
+    margin-top: 3vh;
+}
+#itzrealme-left, #itzrealme-right{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+#itzrealme-left{
+    margin-left: 3vw;
+}
+#itzrealme-right{
+    margin-left: 30vw;
+}
+#text-12, #text-13{
+    position: relative;
+    font-size: clamp(40px, 8vw, 150px);
+    color: white;
+    font-family: "Minecraft-font", sans-serif;
+}
+#text-14{
+    position: relative;
+    color: #e9ec30;
+    font-size: clamp(20px, 3vw, 90px);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 5vh;
+    display: flex;
+    justify-content: center;
+}
+#rank{
+    position: relative;
+    font-size: clamp(80px, 15vw, 150px);
+    font-weight: bolder;
+    color: #e9ec30;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+#website{
+    position: relative;
+    font-size: clamp(20px, 2vw, 50px);
+    font-weight: bolder;
+    color: #e9ec30;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+#itzrealme-name{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    color: rgb(226, 220, 220);
+    font-size: clamp(40px, 5vw, 150px);
+    font-family: "Minecraft-font", sans-serif;
+    line-height: 2;
+    margin-top: 20vh;
 }
