@@ -507,3 +507,9 @@
 .tier-rank{
     font-size: clamp(18px, 2vw, 28px);
 }
+.gold{
+    color: #f3d418;
+}
+.silver{
+    color: #9ba6b2;
+}
