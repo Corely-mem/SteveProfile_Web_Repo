@@ -1,5 +1,5 @@
 #main{
-    background-color: #061426;
+    background-color: black;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -394,6 +394,7 @@
     inset: 0;
     object-fit: cover;
     z-index: 0;
+    transition: opacity 0.25s ease-in-out;
 }
 #itzrealme-container{
     display: flex;
@@ -471,6 +472,7 @@
 .tier{
     display: flex;
     flex-direction: column;
+    cursor: pointer;
 }
 .tier-circle{
     width: 75px;
