@@ -455,3 +455,55 @@
     line-height: 2;
     margin-top: 20vh;
 }
+
+/* ---- TIERS ---- */
+#tiers-container{
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2.5vw;
+    width: 100%;
+}
+.tier{
+    display: flex;
+    flex-direction: column;
+}
+.tier-circle{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    background-color: #11161d;
+    display: flex;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    transition: 0.2s ease;
+}
+.tier-circle img{
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    border: 5px solid #28303d;
+    border-radius: 50%;
+}
+.tier-circle img:hover{
+    transform: translateY(-5px);
+    border-color: #19C9F4;
+    box-shadow: 0 0 15px #19C9F466;
+}
+.mode-name, .tier-rank{
+    margin: 0;
+    font-family: "Minecraft-font", sans-serif;
+    line-height: 1.2;
+    text-align: center;
+}
+.mode-name{
+    color: white;
+    font-size: clamp(14px, 1.5vw, 22px);
+}
+.tier-rank{
+    font-size: clamp(18px, 2vw, 28px);
+}
