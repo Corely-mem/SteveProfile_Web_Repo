@@ -49,3 +49,43 @@
 @keyframes typing {
     from { width: 0 }
 }
+
+/* ---- NAVBAR ---- */
+
+#navbar{
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    width: 100%;
+    padding: 1rem 5%;
+    background: rgba(255, 255, 255, 0.05);
+    border-bottom: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(15px);
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #38bdf8;
+    letter-spacing: 1px;
+}
+.nav-links{
+    list-style: none;
+    display: flex;
+    gap:  2rem;
+}
+.nav-links li a {
+    position: relative;
+    font-size: 1.05rem;
+    font-weight: 500;
+    text-decoration: none;
+    color: #e2ef80;
+    transition: 0.3s;
+}
+.nav-links li a:hover{
+    color: #38bdf8;
+    text-shadow: 0 0 10px #38bdf8;
+}
