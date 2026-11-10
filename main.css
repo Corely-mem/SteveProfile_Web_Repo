@@ -374,3 +374,33 @@
     margin-top: 3vh;
     -webkit-text-stroke: 0.5px black;
 }
+
+/* ---- ITZREALME ---- */
+#itzrealme{
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+#main-itzrealme-img{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    inset: 0;
+    object-fit: cover;
+    z-index: 0;
+}
+#text-12, #text-13{
+    position: relative;
+    font-size: clamp(50px, 8vw, 150px);
+    color: white;
+    font-family: "Minecraft-font", sans-serif;
+    margin-top: 3vh;
+    display: flex;
+    flex-direction: row;
+}
