@@ -5,4 +5,10 @@
 }
 html{
     scroll-behavior: smooth;
+    scroll-padding-top: 80px;
+    overflow-x: clip;
+}
+body{
+    overflow-x: clip;
+    background-color: #000;
 }
