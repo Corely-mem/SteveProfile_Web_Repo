@@ -264,7 +264,7 @@
     overflow: hidden;
 }
 #main-herobrine-img{
-    height: clamp(200px, 35vh, 300px);
+    height: 100%;
     width: 100%;
     position: absolute;
     inset: 0;
